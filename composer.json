@@ -1,5 +1,5 @@
 {
-    "name": "eventmanager/eventmanager",
+    "name": "rastor/eventmanager",
     "type": "library",
     "description": "PHP Event Manager",
     "keywords": ["events", "event manager", "event driven"],
@@ -16,6 +16,6 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "psr-0": { "EventManager": "." }
+        "classmap": ["EventManager/EventManager.php"]
     }
 }
